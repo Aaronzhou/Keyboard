@@ -1,4 +1,4 @@
-package com.github.phoenix.widget;
+package com.example.keyboards;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -10,8 +10,6 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import com.github.phoenix.R;
 
 /**
  * 防京东密码键盘

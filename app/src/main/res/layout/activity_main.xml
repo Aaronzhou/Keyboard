@@ -3,7 +3,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-    <com.github.phoenix.widget.PayEditText
+    <com.example.keyboards.PayEditText
         android:id="@+id/PayEditText_pay"
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
@@ -12,7 +12,7 @@
         android:paddingRight="12dp"
         android:layout_height="48dp"/>
 
-    <com.github.phoenix.widget.Keyboard
+    <com.example.keyboards.Keyboard
         android:id="@+id/KeyboardView_pay"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"

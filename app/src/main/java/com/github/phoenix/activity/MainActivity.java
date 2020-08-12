@@ -4,9 +4,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
+import com.example.keyboards.Keyboard;
+import com.example.keyboards.PayEditText;
 import com.github.phoenix.R;
-import com.github.phoenix.widget.Keyboard;
-import com.github.phoenix.widget.PayEditText;
 
 public class MainActivity extends AppCompatActivity {
     private static final String[] KEY = new String[] {

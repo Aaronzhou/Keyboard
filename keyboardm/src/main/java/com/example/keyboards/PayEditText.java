@@ -1,4 +1,4 @@
-package com.github.phoenix.widget;
+package com.example.keyboards;
 
 import android.content.Context;
 import android.text.Editable;
@@ -8,9 +8,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.github.phoenix.R;
-
 
 /**
  * 自定义防支付宝, 京东密码输入框
@@ -55,7 +52,7 @@ public class PayEditText extends LinearLayout {
             public void afterTextChanged(Editable s) {
                 //六个密码都输入完成时回调
                 if (onInputFinishedListener != null && mPassword != null && mPassword.toString().length() == 6 && !TextUtils.isEmpty(s.toString())) {
-                        onInputFinishedListener.onInputFinished(mPassword.toString());
+                    onInputFinishedListener.onInputFinished(mPassword.toString());
                 }
             }
         });
